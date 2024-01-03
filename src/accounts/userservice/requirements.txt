@@ -33,7 +33,9 @@ click==8.1.7
     #   -r requirements.in
     #   flask
 coverage[toml]==7.3.1
-    # via pytest-cov
+    # via
+    #   coverage
+    #   pytest-cov
 cryptography==41.0.4
     # via -r requirements.in
 deprecated==1.2.14
@@ -221,7 +223,7 @@ webencodings==0.5.1
     # via
     #   -r requirements.in
     #   bleach
-werkzeug==2.3.7
+werkzeug==2.3.8
     # via flask
 wrapt==1.15.0
     # via
