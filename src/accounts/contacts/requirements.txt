@@ -33,7 +33,9 @@ click==8.1.7
     #   -r requirements.in
     #   flask
 coverage[toml]==7.3.1
-    # via pytest-cov
+    # via
+    #   coverage
+    #   pytest-cov
 cryptography==41.0.4
     # via -r requirements.in
 deprecated==1.2.14
@@ -177,7 +179,7 @@ pycparser==2.21
     # via
     #   -r requirements.in
     #   cffi
-pycryptodome==3.19.0
+pycryptodome==3.19.1
     # via -r requirements.in
 pyjwt==2.8.0
     # via -r requirements.in
